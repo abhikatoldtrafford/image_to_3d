@@ -7,7 +7,7 @@ a)conda create -n img3d python=3.10
 
 b)conda activate img3d 
 
-c) pip install modelscope face_alignment
+c) pip install modelscope face_alignment albumentations kornia
 
 d) pip install modelscope[cv] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
 
