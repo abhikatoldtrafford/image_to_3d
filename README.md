@@ -13,4 +13,4 @@ Steps for img to animated avatar:
 Install blender
 Add to path
 pip install bpy==3.6.0
-python image_to_animated.py
+python pipeline.py
