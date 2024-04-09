@@ -1,16 +1,25 @@
-# image_to_3d
+
 input: image, output: 3d model + animated face
 
 Steps for img to 3d:
 
-conda create -n img3d python=3.10
-conda activate img3d 
-pip install modelscope
-pip install modelscope[cv] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
-python test_reconstruction.py
+a)conda create -n img3d python=3.10
+
+b)conda activate img3d 
+
+c) pip install modelscope
+
+d) pip install modelscope[cv] -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html
+
+e) python test_reconstruction.py
+
 
 Steps for img to animated avatar:
-Install blender
-Add to path
-pip install bpy==3.6.0
-python pipeline.py
+
+a) Install blender
+
+b) Add to path
+
+c)pip install bpy==3.6.0
+
+d) python pipeline.py
